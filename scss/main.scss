@@ -3,4 +3,16 @@
 * {
    font-family: $primaryFont;
 }
+ header {
+  height: 56px;
+  background-color: $blackthema-light-opacity; 
+}
 
+.menu {
+padding-right: 24px;
+padding-left: 26px;
+padding-top: 16px;
+}
+.youtubelogo {
+padding-top: 16px;
+}

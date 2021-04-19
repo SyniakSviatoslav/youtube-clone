@@ -2,16 +2,8 @@
 * {
   font-family: "Roboto", sans-serif; }
 
-header {
+* header {
   height: 56px;
   background-color: #212121; }
-
-.menu {
-  padding-right: 24px;
-  padding-left: 26px;
-  padding-top: 16px; }
-
-.youtubelogo {
-  padding-top: 16px; }
 
 /*# sourceMappingURL=main.css.map */
