@@ -4,15 +4,68 @@
    font-family: $primaryFont;
 }
  header {
+  display: flex;
+  align-items: center;
   height: 56px;
-  background-color: $blackthema-light-opacity; 
+  background-color: $blackthema-light-opacity;
+  z-index: 1;
+}
+
+.topnav {
+ padding-top: 16px;
+ padding-bottom: 16px;
 }
 
 .menu {
 padding-right: 24px;
 padding-left: 26px;
-padding-top: 16px;
 }
-.youtubelogo {
-padding-top: 16px;
+
+
+.searchbar {
+   padding-left: 258px;
+   padding-top: 12px;
 }
+ .searchbar input[type=text] {
+   align-items: center;
+   border: none;
+   width: 571px;
+   height: 19px;
+   padding-top: 12px;
+   padding-right: 0;
+   background: #181818;
+   border: 1.18px solid #424242;
+   border-radius: 2px 0px 0px 2px;
+
+ }
+ .searchicon {
+   display: inline-block;
+   text-align: center;
+   width: 50px;
+   height: 32px;
+   background: #424242;
+   border: 1.18px solid #424242;
+   border-radius: 0px 2px 2px 0px;
+ }
+
+ .icons {
+    padding-left: 224px;
+    width: 200px;
+    height: 40px;
+ }
+
+ .create {
+    padding-right: 8px;
+ }
+
+ .apps {
+    padding-right: 8px;
+ }
+
+ .notifications {
+    padding-right: 8px;
+ }
+
+ .subphoto {
+    padding-right: 16px;
+ }
