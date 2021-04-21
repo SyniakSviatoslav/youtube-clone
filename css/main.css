@@ -1,61 +1,61 @@
 /* Mixins are going next */
 * {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
 
 header {
+  position: fixed;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 56px;
   background-color: #212121;
-  z-index: 1; }
+  z-index: 1;
+  padding: 12px 26px;
+  width: 100vw; }
 
 .topnav {
-  padding-top: 16px;
-  padding-bottom: 16px; }
+  display: flex;
+  align-items: center; }
 
 .menu {
-  padding-right: 24px;
-  padding-left: 26px; }
+  border: none;
+  background-color: transparent; }
+
+.youtubelogo {
+  margin-left: 24px; }
 
 .searchbar {
-  padding-left: 258px;
-  padding-top: 12px; }
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 38%; }
 
 .searchbar input[type=text] {
-  align-items: center;
-  border: none;
-  width: 571px;
-  height: 19px;
-  padding-top: 12px;
-  padding-right: 0;
+  height: 100%;
+  width: 90%;
   background: #181818;
-  border: 1.18px solid #424242;
+  border: 1px solid #424242;
   border-radius: 2px 0px 0px 2px; }
 
 .searchicon {
+  height: 100%;
   display: inline-block;
   text-align: center;
   width: 50px;
-  height: 32px;
   background: #424242;
-  border: 1.18px solid #424242;
-  border-radius: 0px 2px 2px 0px; }
+  border: 1px solid #424242;
+  border-radius: 0px 2px 2px 0px;
+  cursor: pointer; }
 
 .icons {
-  padding-left: 224px;
-  width: 200px;
-  height: 40px; }
+  display: flex;
+  align-items: center; }
 
-.create {
-  padding-right: 8px; }
-
-.apps {
-  padding-right: 8px; }
-
-.notifications {
-  padding-right: 8px; }
-
-.subphoto {
-  padding-right: 16px; }
+.navicon {
+  margin-left: 8px; }
 
 /*# sourceMappingURL=main.css.map */
