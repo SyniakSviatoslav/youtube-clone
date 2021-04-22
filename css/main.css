@@ -63,19 +63,28 @@ header {
 
 .sidebar {
   position: fixed;
-  margin-top: 56px;
+  top: 56px;
   left: 0;
-  height: calc(100vh-56px);
+  height: calc(100vh - 56px);
   width: 200px;
-  background-color: #212121; }
+  background-color: #212121;
+  overflow-y: scroll; }
 
 .home {
   height: 172px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-style: #424242; }
+  padding-left: 20px;
+  border-bottom: 2px solid #424242; }
+
+.homenav {
+  display: flex;
+  align-items: center;
+  background-color: #212121;
+  color: #909090;
+  height: 42px;
+  border: none; }
 
 .homeicon {
-  color: #909090; }
+  color: #909090;
+  padding-right: 20px; }
 
 /*# sourceMappingURL=main.css.map */
