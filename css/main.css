@@ -15,7 +15,8 @@ header {
   background-color: #212121;
   z-index: 1;
   padding: 12px 26px;
-  width: 100vw; }
+  width: 100vw;
+  height: 56px; }
 
 .topnav {
   display: flex;
@@ -57,5 +58,20 @@ header {
 
 .navicon {
   margin-left: 8px; }
+
+.content {
+  margin-top: 56px;
+  height: 844px;
+  width: 200px;
+  background-color: #212121; }
+
+.home {
+  height: 172px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-style: #424242; }
+
+.homeicon {
+  color: #909090; }
 
 /*# sourceMappingURL=main.css.map */
