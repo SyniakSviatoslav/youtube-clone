@@ -70,11 +70,6 @@ header {
   background-color: #212121;
   overflow-y: scroll; }
 
-.home {
-  height: 172px;
-  padding-left: 20px;
-  border-bottom: 2px solid #424242; }
-
 .homenav {
   display: flex;
   align-items: center;
@@ -86,5 +81,17 @@ header {
 .homeicon {
   color: #909090;
   padding-right: 20px; }
+
+.home {
+  padding-left: 20px;
+  border-bottom: 2px solid #424242; }
+
+.library {
+  padding-left: 20px;
+  border-bottom: 2px solid #424242; }
+
+.subscriptions {
+  padding-left: 20px;
+  border-bottom: 2px solid #424242; }
 
 /*# sourceMappingURL=main.css.map */

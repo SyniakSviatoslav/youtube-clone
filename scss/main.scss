@@ -85,12 +85,6 @@ margin-left: 24px;
    overflow-y: scroll;
  }
 
- .home {
-  height: 172px;
-  padding-left: 20px;
-  border-bottom: 2px solid $bordor-color;
- }
-
  .homenav {
     display: flex;
    align-items: center;
@@ -99,12 +93,25 @@ margin-left: 24px;
    height: 42px;
    border: none;
  }
- 
- 
 
  .homeicon {
   color: $icon-color;
   padding-right: 20px;
+ }
+
+ .home {
+  padding-left: $sidebar_padding;
+  border-bottom: $sidebar_border;
+ }
+
+.library {
+  padding-left: $sidebar_padding;
+  border-bottom: $sidebar_border;
+ }
+
+ .subscriptions {
+  padding-left: $sidebar_padding;
+  border-bottom: $sidebar_border;
  }
 
  
