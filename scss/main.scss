@@ -86,7 +86,7 @@ margin-left: 24px;
  }
 
  .homenav {
-    display: flex;
+   display: flex;
    align-items: center;
    background-color: $black-theme-light;
    color: $icon-color;
@@ -114,4 +114,23 @@ margin-left: 24px;
   border-bottom: $sidebar_border;
  }
 
+ main {
+   padding-left: 200px;
+   padding-top: 156px;
+   background-color: pink;
+   height: 1000px;
+ }
+
+ .filters {
+   position: fixed;
+   top: 56px;
+   left: 200px;
+   height: 100px;
+   width: calc(100vw - 200px);
+   background-color: green;
+   overflow-x: scroll;
+ }
+ .subheader {
+   width: 2000px;
+ }
  
