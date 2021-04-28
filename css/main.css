@@ -106,8 +106,7 @@ header {
 main {
   padding-left: 200px;
   padding-top: 156px;
-  background-color: pink;
-  height: 1000px; }
+  background-color: #212121; }
 
 .filters {
   position: fixed;
@@ -119,11 +118,6 @@ main {
   overflow-x: scroll;
   border-bottom: 2px solid #424242;
   border-top: 2px solid #424242;
-  display: flex;
-  align-items: center; }
-
-.subheader {
-  width: 100%;
   display: flex;
   align-items: center; }
 
@@ -145,5 +139,28 @@ main {
   padding: 7px 12px 7px 12px;
   margin-right: 12px;
   margin-left: 24px; }
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px; }
+
+.video {
+  max-width: 288px; }
+
+.videoscript {
+  display: flex; }
+
+.logo {
+  padding-right: 11px; }
+
+.text {
+  color: #FFFFFF;
+  font-weight: bold; }
+
+.subtext {
+  font-size: 12px;
+  color: #909090; }
 
 /*# sourceMappingURL=main.css.map */
