@@ -140,14 +140,21 @@ main {
   margin-right: 12px;
   margin-left: 24px; }
 
-.row {
+.column {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  flex: 25%;
+  max-width: 25%;
   justify-content: space-between;
   padding-left: 32px;
   padding-right: 32px; }
 
 .video {
-  max-width: 288px; }
+  max-width: 25%; }
+  
 
 .videoscript {
   display: flex; }
@@ -162,5 +169,13 @@ main {
 .subtext {
   font-size: 12px;
   color: #909090; }
+
+
+@media (max-width: 1200px) {
+.row {
+  flex: 33.3%;
+  width: 33.3%;
+}
+}
 
 /*# sourceMappingURL=main.css.map */
