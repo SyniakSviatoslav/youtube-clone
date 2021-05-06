@@ -140,20 +140,22 @@ main {
   margin-right: 12px;
   margin-left: 24px; }
 
-.column {
-  display: flex;
-  flex-wrap: wrap;
-}
+/* .column { */
+  /* display: flex; */
+  /* flex-wrap: wrap;
+} */
 
 .row {
-  flex: 25%;
-  max-width: 25%;
+  /* flex: 25%;
+  max-width: 25%; */
+  display: flex;
   justify-content: space-between;
   padding-left: 32px;
   padding-right: 32px; }
 
 .video {
-  max-width: 25%; }
+  max-width: 25%; 
+}
   
 
 .videoscript {
