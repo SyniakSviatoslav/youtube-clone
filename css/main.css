@@ -1,23 +1,19 @@
 /* Mixins are going next */
 * {
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 *::-webkit-scrollbar {
   width: 0.5em;
   height: 0.5em;
-  background-color: #212121;
-}
+  background-color: #212121; }
 
 *::-webkit-scrollbar-thumb {
   background-color: #909090;
-  border-radius: 4px;
-}
+  border-radius: 4px; }
 
 body {
-  margin: 0;
-}
+  margin: 0; }
 
 header {
   top: 0;
@@ -27,41 +23,50 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 56px;
-  background-color: #2e2b2b;
+  background-color: #212121;
   z-index: 1;
   padding: 12px 26px;
   width: 100vw;
-  height: 56px;
-}
+  height: 56px; }
 
 .topnav {
   display: flex;
-  align-items: center;
-}
+  align-items: center; }
 
 .menu {
   border: none;
-  background-color: transparent;
-}
+  background-color: transparent; }
 
 .youtubelogo {
-  margin-left: 24px;
-}
+  margin-left: 24px; }
 
 .searchbar {
   display: flex;
   align-items: center;
   height: 32px;
-  width: 38%;
-}
+  width: 38%; }
+
+.searchbut {
+  display: flex;
+  align-items: center;
+  display: none;
+  background-color: transparent; }
+
+.newsearchicon {
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  background: transparent;
+  border: 1px solid #212121;
+  border-radius: 0px 2px 2px 0px;
+  cursor: pointer; }
 
 .searchbar input[type=text] {
   height: 100%;
   width: 90%;
   background: #181818;
   border: 1px solid #424242;
-  border-radius: 2px 0px 0px 2px;
-}
+  border-radius: 2px 0px 0px 2px; }
 
 .searchicon {
   height: 100%;
@@ -71,17 +76,14 @@ header {
   background: #424242;
   border: 1px solid #424242;
   border-radius: 0px 2px 2px 0px;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .icons {
   display: flex;
-  align-items: center;
-}
+  align-items: center; }
 
 .navicon {
-  margin-left: 8px;
-}
+  margin-left: 8px; }
 
 .sidebar {
   position: fixed;
@@ -90,8 +92,7 @@ header {
   height: calc(100vh - 56px);
   width: 200px;
   background-color: #212121;
-  overflow-y: scroll;
-}
+  overflow-y: scroll; }
 
 .homenav {
   display: flex;
@@ -99,34 +100,28 @@ header {
   background-color: #212121;
   color: #909090;
   height: 42px;
-  border: none;
-}
+  border: none; }
 
 .homeicon {
   color: #909090;
-  padding-right: 20px;
-}
+  padding-right: 20px; }
 
 .home {
   padding-left: 20px;
-  border-bottom: 2px solid #424242;
-}
+  border-bottom: 2px solid #424242; }
 
 .library {
   padding-left: 20px;
-  border-bottom: 2px solid #424242;
-}
+  border-bottom: 2px solid #424242; }
 
 .subscriptions {
   padding-left: 20px;
-  border-bottom: 2px solid #424242;
-}
+  border-bottom: 2px solid #424242; }
 
 main {
   padding-left: 200px;
   padding-top: 156px;
-  background-color: #212121;
-}
+  background-color: #212121; }
 
 .filters {
   position: fixed;
@@ -139,76 +134,72 @@ main {
   border-bottom: 2px solid #424242;
   border-top: 2px solid #424242;
   display: flex;
-  align-items: center;
-}
+  align-items: center; }
 
 .filterbutton {
-  background-color: #909090;
+  background-color: rgba(66, 66, 66, 0.56);
   border: 2px solid #424242;
   font-size: 14px;
   color: #FFFFFF;
   border-radius: 16px;
   padding: 7px 12px 7px 12px;
-  margin-right: 12px;
-}
+  margin-right: 12px; }
 
 .filterbuttons {
-  background-color: #909090;
+  background-color: rgba(66, 66, 66, 0.56);
   border: 2px solid #424242;
   font-size: 14px;
   color: #FFFFFF;
   border-radius: 16px;
   padding: 7px 12px 7px 12px;
   margin-right: 12px;
-  margin-left: 24px;
-}
+  margin-left: 24px; }
 
 .content {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 32px;
-}
+  padding: 0 32px; }
 
 .video {
   max-width: 25%;
-}
+  padding-right: 5px; }
 
 .video img {
-  max-width: 100%;
-}
+  max-width: 100%; }
 
 .videoscript {
-  display: flex;
-}
+  display: flex; }
 
 .logo {
-  padding-right: 11px;
-}
+  size: 100%;
+  padding-right: 11px; }
 
 .text {
   color: #FFFFFF;
   font-weight: bold;
-}
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 24px; }
 
 .subtext {
   font-size: 12px;
-  color: #909090;
-}
+  color: #909090; }
 
-@media (max-width: 1100px) {
+@media (max-width: 1143px) {
   .video {
-    max-width: 33.3333%;
-  }
-}
-@media (max-width: 800px) {
+    max-width: 33.3333%; } }
+@media (max-width: 886px) {
   .video {
-    max-width: 50%;
-  }
-}
-@media (max-width: 680px) {
+    max-width: 50%; } }
+@media (max-width: 655px) {
+  .searchbar {
+    display: none; }
+
+  .searchbut {
+    display: block; } }
+@media (max-width: 510px) {
   .video {
-    max-width: 100%;
-  }
-}
+    max-width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
