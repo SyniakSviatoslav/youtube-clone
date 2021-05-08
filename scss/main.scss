@@ -104,6 +104,26 @@ margin-left: 24px;
     margin-left: 24px;
  }
 
+ .sidebar-new {
+  display: none;
+  position: fixed;
+  top: $header_height;
+  left: 0;
+  height: calc(100vh - 56px);
+  width: 200px;
+  background-color: $black-theme-light;
+  overflow-y: scroll;
+ }
+
+ .homenav-new {
+  display: flex;
+  flex-direction: column;
+  background-color: $black-theme-light;
+  color: $icon-color;
+  height: 42px;
+  border: none;
+ }
+
  .sidebar {
    position: fixed;
    top: $header_height;
@@ -126,6 +146,7 @@ margin-left: 24px;
  .homeicon {
   color: $icon-color;
   padding-right: 20px;
+  height: 24px;
  }
 
  .home {
@@ -235,6 +256,12 @@ color: $icon-color;
 @media (max-width: 886px) {
   .video {
       max-width: 50%;
+  }
+  .sidebar {
+    display: none;
+  }
+  .sidebar-new {
+    display: flex;
   }
 }
 

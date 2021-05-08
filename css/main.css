@@ -88,6 +88,24 @@ header {
 .navicon {
   margin-left: 24px; }
 
+.sidebar-new {
+  display: none;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  height: calc(100vh - 56px);
+  width: 200px;
+  background-color: #212121;
+  overflow-y: scroll; }
+
+.homenav-new {
+  display: flex;
+  flex-direction: column;
+  background-color: #212121;
+  color: #909090;
+  height: 42px;
+  border: none; }
+
 .sidebar {
   position: fixed;
   top: 56px;
@@ -107,7 +125,8 @@ header {
 
 .homeicon {
   color: #909090;
-  padding-right: 20px; }
+  padding-right: 20px;
+  height: 24px; }
 
 .home {
   padding-left: 20px;
@@ -193,7 +212,13 @@ main {
     max-width: 33.3333%; } }
 @media (max-width: 886px) {
   .video {
-    max-width: 50%; } }
+    max-width: 50%; }
+
+  .sidebar {
+    display: none; }
+
+  .sidebar-new {
+    display: flex; } }
 @media (max-width: 655px) {
   .searchbar {
     display: none; }
